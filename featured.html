@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwinds</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="container min-h-screen bg-[url('/img/Image.png')] bg-center bg-cover px-28 py-5 relative">
+        <nav class="flex items-center">
+            <a href="home.html" class="w-40">
+                <img src="img/logo.png">
+            </a>
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a class="no-underline px-2 text-slate-300"
+                        href="home.html">Home</a></li>
+                <li class="list-none inline-block px-5"><a class="no-underline px-2 text-slate-300"
+                        href="about.html">About</a>
+                </li>
+                <li class="list-none inline-block px-5"><a class="no-underline px-2 text-slate-300"
+                        href="featured.html">Featured</a></li>
+                <li class="list-none inline-block px-5"><a class="no-underline px-2 text-slate-300" href="#">Contact</a>
+                </li>
+            </ul>
+            <a href="#" class="w-10">
+                <img src="img/cart.png">
+            </a>
+        </nav>
+
+        <section class="container text-white relative px-28 py-5 min-h-svh">
+            <div class="flex items-center ">
+                <h1 class="text-6xl font-semibold leading-normal">Featured</h1>
+            </div>
+            <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+                    <!-- Apple -->
+                    <div
+                        class="w-full bg-red-500 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-red-500 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/apple.png" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl   font-bold">Apple</p>
+                            <p class="text-base  font-normal">Fruit</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pumkin -->
+                    <div
+                        class="w-full bg-orange-600 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-orange-600 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/pumkin.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Pumkin</p>
+                            <p class="text-base  font-normal">Fruit and Vegetable</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Water Melon -->
+                    <div
+                        class="w-full bg-green-700 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-green-700 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/watermelon.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Water Melon</p>
+                            <p class="text-base  font-normal">Fruit</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pabrika-->
+                    <div
+                        class="w-full bg-red-500 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-red-500 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/paprika.png" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Paprika</p>
+                            <p class="text-base  font-normal">Vegetable</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pumkin -->
+                    <div
+                        class="w-full bg-orange-600 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-orange-600 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/pumkin.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Pumkin</p>
+                            <p class="text-base  font-normal">Fruit and Vegetable</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Water Melon -->
+                    <div
+                        class="w-full bg-green-700 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-green-700 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/watermelon.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Water Melon</p>
+                            <p class="text-base  font-normal">Fruit</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Apple -->
+                    <div
+                        class="w-full bg-red-500 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-red-500 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/apple.png" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl   font-bold">Apple</p>
+                            <p class="text-base  font-normal">Fruit</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pabrika-->
+                    <div
+                        class="w-full bg-red-500 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row hover:bg-transparent hover:border-red-500 duration-300 hover:text-white hover:border border border-transparent">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="img/paprika.png" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl  font-bold">Paprika</p>
+                            <p class="text-base  font-normal">Vegetable</p>
+                            <p class="text-base leading-relaxed font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Featured -->
+
+    <!-- End of Featured -->
+
+    <!-- Footer -->
+    <footer class="bg-blue-100/80 font-sans dark:bg-gray-900">
+        <div class="container px-6 py-12 mx-auto">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                <div class="sm:col-span-2">
+                    <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
+                        Subscribe our newsletter to get an update.</h1>
+
+                    <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                        <input id="email" type="text"
+                            class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                            placeholder="Email Address" />
+
+                        <button
+                            class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+
+                    <div class="flex flex-col items-start mt-5 space-y-2">
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Home</p>
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            About</p>
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Featured</p>
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Contact</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+
+                    <div class="flex flex-col items-start mt-5 space-y-2">
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Retail & E-Commerce</p>
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Information Technology</p>
+                        <p
+                            class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
+                            Finance & Insurance</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
+
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="flex flex-1 gap-4 hover:cursor-pointer">
+                    <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width="130" height="110"
+                        alt="" />
+                    <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width="130"
+                        height="110" alt="" />
+                </div>
+
+                <div class="flex gap-4 hover:cursor-pointer">
+                    <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30"
+                        alt="fb" />
+                    <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
+                    <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30"
+                        alt="inst" />
+                    <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
+                </div>
+            </div>
+            <p class="font-sans p-8 text-start md:text-center md:text-lg md:p-4 text-white">© 2024 Grosir dek. All
+                rights
+                reserved.</p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+</body>
+
+</html>
